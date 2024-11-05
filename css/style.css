@@ -138,22 +138,26 @@ header {
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
     .person-card {
-        max-width: 90%;
-        margin: 20px auto;
+        max-width: 70%;
+        margin: 20% auto;
         padding: 20px;
     }
 
     .person-card img {
-        width: 100px;
+        width: 300px;
     }
 
     .person-card h2 {
-        font-size: 20px;
+        font-size: 50px;
     }
 
     .person-card p {
-        font-size: 16px;
+        font-size: 30px;
+    }
+
+    header img {
+        max-width: 300px;
     }
 }
