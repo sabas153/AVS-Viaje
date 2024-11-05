@@ -1,0 +1,140 @@
+/* Styles for the index page */
+
+.intro {
+    text-align: center;
+    margin: 20px;
+}
+
+.agenda {
+    margin: 20px;
+}
+
+.agenda-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* Styles for the header and nav link */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+.nav-link {
+    margin-left: auto;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0A5B90;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #127abe;
+}
+/* Removed conflicting body selector */
+.container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+/* Removed duplicate .agenda-item definition */
+.agenda-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.agenda-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.agenda-item p {
+    margin: 5px 0 0;
+}
+
+/*personas*/
+
+/* Asegura que el fondo cubra toda la pantalla */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #0A5B90, #4A8FB0, #A0C3D9);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fija el fondo para que no se desplace con el scroll */
+}
+
+/* Estilos generales */
+header {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+.main {
+    margin: 10px;
+}
+
+.person-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    margin-top: 50px;
+    max-width: 50%;
+}
+
+.person-card img {
+    width: 80px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.person-card h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.person-card p {
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
